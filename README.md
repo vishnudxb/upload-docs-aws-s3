@@ -14,4 +14,12 @@ user@machine:~./Upload-Docs.pl
 
   ```
 
+#Python script to upload files to AWS s3
+*This script is for the python lovers :) It also does the same thing*
+
+*You can run that script as below*
+  ```
+user@machine:~./upload-cerb-docs.py
+
+  ```
 
