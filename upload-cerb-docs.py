@@ -7,9 +7,9 @@ import zipfile
 import time
 
 
-bucket_name = "perl-copy-task"
-bucket_folder_name = "perl-docs"
-bucket_inside_folder_name = "Docfiles"
+bucket_name = "python-backup"
+bucket_folder_name = "python-folder"
+bucket_inside_folder_name = "python-files"
 
 files_loc = []
 files_and_path = {}
