@@ -20,7 +20,7 @@ def create_zipfile(starts_with):
 	now = time.time()	               
         older_than = 50			        
 	zf = zipfile.ZipFile(file_name, "w")   
-	for dirname, subdirs, files in os.walk("/uploads/cerberus.live/documents"):   
+	for dirname, subdirs, files in os.walk("/uploads/server/documents"):   
 	    zf.write(dirname)		 					     
 	    for filename in files:	      
                 file_created_time = os.stat(os.path.join(dirname, filename)).st_mtime 
